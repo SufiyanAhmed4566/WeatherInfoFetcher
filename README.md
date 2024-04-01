@@ -1,5 +1,4 @@
-
-
+![weatherinfofetcher Logo](IMG_20240330_181931.jpg)
 # WeatherInfoFetcher 🌦️
 
 **WeatherInfoFetcher** is a Python script that retrieves real-time weather information for a given city using the **WeatherAPI**. Whether you're a developer, traveler, or weather enthusiast, this lightweight tool provides essential weather details at your fingertips.
