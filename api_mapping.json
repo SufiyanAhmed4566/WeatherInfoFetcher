@@ -1,0 +1,87 @@
+{
+  "apis": [
+    {
+      "api_name": "default",
+      "url": "http://api.weatherapi.com/v1/current.json",
+      "pre_key": "?key=2f52d9bd7df943bfa5c110209242903",
+      "location_prefix": "&q=",
+      "post_key": "",
+      "data": [
+        {
+          "description": "temp",
+          "path": ["current", "temp_c"]
+        },
+        {
+          "description": "temp_f",
+          "path": ["current", "temp_f"]
+        },
+        {
+          "description": "wind_mph",
+          "path": ["current", "wind_mph"]
+        },
+        {
+          "description": "wind_kph",
+          "path": ["current", "wind_kph"]
+        },
+        {
+          "description": "humidity",
+          "path": ["current", "humidity"]
+        },
+        {
+          "description": "cloudcover",
+          "path": ["current", "cloud"]
+        }
+      ]
+    },
+    {
+      "api_name": "visualcrossing.com",
+      "url": "https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/",
+      "pre_key": "",
+      "location_prefix": "/",
+      "post_key": "?key=63HXSPFMH4H4PM4XAPVXVJU62",
+      "data": [
+        {
+          "description": "temp",
+          "path": ["currentConditions", "temp"]
+        },
+        {
+          "description": "wind_kph",
+          "path": ["currentConditions", "windspeed"]
+        },
+        {
+          "description": "humidity",
+          "path": ["currentConditions", "humidity"]
+        },
+        {
+          "description": "cloudcover",
+          "path": ["currentConditions", "cloudcover"]
+        }
+      ]
+    },
+    {
+      "api_name": "weatherstack.com",
+      "url": "http://api.weatherstack.com/current",
+      "pre_key": "?access_key=3642789fb73139385cad4d314ddea158",
+      "location_prefix": "&query=",
+      "post_key": "",
+      "data": [
+        {
+          "description": "temp",
+          "path": ["current", "temperature"]
+        },
+        {
+          "description": "wind_kph",
+          "path": ["current", "wind_speed"]
+        },
+        {
+          "description": "humidity",
+          "path": ["current", "humidity"]
+        },
+        {
+          "description": "cloudcover",
+          "path": ["current", "cloudcover"]
+        }
+      ]
+    }
+  ]
+}
