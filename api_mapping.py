@@ -1,5 +1,4 @@
 import json
-hb
 class FieldClass:
     field_name: str
     keys: [str]
